@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { RefreshCw, Share2, Heart } from "lucide-react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // 12則天父恩典卡內容資料庫
 const BLESSINGS = [
@@ -384,6 +385,7 @@ export default function App() {
           <p>2026 武昌學青牧區 Design for Blessing</p>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
